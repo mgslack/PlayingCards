@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6BC8EDB1-9911-4756-A95A-D1D62E373507}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PlayingCards</RootNamespace>
+    <AssemblyName>PlayingCards</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CardDeck.cs" />
+    <Compile Include="CardHand.cs" />
+    <Compile Include="PlayingCard.cs" />
+    <Compile Include="PlayingCardImage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\1.gif" />
+    <EmbeddedResource Include="images\2.gif" />
+    <EmbeddedResource Include="images\3.gif" />
+    <EmbeddedResource Include="images\4.gif" />
+    <EmbeddedResource Include="images\5.gif" />
+    <EmbeddedResource Include="images\6.gif" />
+    <EmbeddedResource Include="images\7.gif" />
+    <EmbeddedResource Include="images\8.gif" />
+    <EmbeddedResource Include="images\9.gif" />
+    <EmbeddedResource Include="images\10.gif" />
+    <EmbeddedResource Include="images\11.gif" />
+    <EmbeddedResource Include="images\12.gif" />
+    <EmbeddedResource Include="images\13.gif" />
+    <EmbeddedResource Include="images\14.gif" />
+    <EmbeddedResource Include="images\15.gif" />
+    <EmbeddedResource Include="images\16.gif" />
+    <EmbeddedResource Include="images\17.gif" />
+    <EmbeddedResource Include="images\18.gif" />
+    <EmbeddedResource Include="images\19.gif" />
+    <EmbeddedResource Include="images\20.gif" />
+    <EmbeddedResource Include="images\21.gif" />
+    <EmbeddedResource Include="images\22.gif" />
+    <EmbeddedResource Include="images\23.gif" />
+    <EmbeddedResource Include="images\24.gif" />
+    <EmbeddedResource Include="images\25.gif" />
+    <EmbeddedResource Include="images\26.gif" />
+    <EmbeddedResource Include="images\27.gif" />
+    <EmbeddedResource Include="images\28.gif" />
+    <EmbeddedResource Include="images\29.gif" />
+    <EmbeddedResource Include="images\30.gif" />
+    <EmbeddedResource Include="images\31.gif" />
+    <EmbeddedResource Include="images\32.gif" />
+    <EmbeddedResource Include="images\33.gif" />
+    <EmbeddedResource Include="images\34.gif" />
+    <EmbeddedResource Include="images\35.gif" />
+    <EmbeddedResource Include="images\36.gif" />
+    <EmbeddedResource Include="images\37.gif" />
+    <EmbeddedResource Include="images\38.gif" />
+    <EmbeddedResource Include="images\39.gif" />
+    <EmbeddedResource Include="images\40.gif" />
+    <EmbeddedResource Include="images\41.gif" />
+    <EmbeddedResource Include="images\42.gif" />
+    <EmbeddedResource Include="images\43.gif" />
+    <EmbeddedResource Include="images\44.gif" />
+    <EmbeddedResource Include="images\45.gif" />
+    <EmbeddedResource Include="images\46.gif" />
+    <EmbeddedResource Include="images\47.gif" />
+    <EmbeddedResource Include="images\48.gif" />
+    <EmbeddedResource Include="images\49.gif" />
+    <EmbeddedResource Include="images\50.gif" />
+    <EmbeddedResource Include="images\51.gif" />
+    <EmbeddedResource Include="images\52.gif" />
+    <EmbeddedResource Include="images\200.gif" />
+    <EmbeddedResource Include="images\201.gif" />
+    <EmbeddedResource Include="images\202.gif" />
+    <EmbeddedResource Include="images\203.gif" />
+    <EmbeddedResource Include="images\204.gif" />
+    <EmbeddedResource Include="images\205.gif" />
+    <EmbeddedResource Include="images\206.gif" />
+    <EmbeddedResource Include="images\207.gif" />
+    <EmbeddedResource Include="images\300.gif" />
+    <EmbeddedResource Include="images\301.gif" />
+    <EmbeddedResource Include="images\302.gif" />
+    <EmbeddedResource Include="images\303.gif" />
+	<EmbeddedResource Include="images\304.gif" />
+	<EmbeddedResource Include="images\305.gif" />
+	<EmbeddedResource Include="images\306.gif" />
+	<EmbeddedResource Include="images\307.gif" />
+    <EmbeddedResource Include="images\400.gif" />
+    <EmbeddedResource Include="images\401.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
