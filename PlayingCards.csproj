@@ -116,10 +116,10 @@
     <EmbeddedResource Include="images\301.gif" />
     <EmbeddedResource Include="images\302.gif" />
     <EmbeddedResource Include="images\303.gif" />
-	<EmbeddedResource Include="images\304.gif" />
-	<EmbeddedResource Include="images\305.gif" />
-	<EmbeddedResource Include="images\306.gif" />
-	<EmbeddedResource Include="images\307.gif" />
+    <EmbeddedResource Include="images\304.gif" />
+    <EmbeddedResource Include="images\305.gif" />
+    <EmbeddedResource Include="images\306.gif" />
+    <EmbeddedResource Include="images\307.gif" />
     <EmbeddedResource Include="images\400.gif" />
     <EmbeddedResource Include="images\401.gif" />
   </ItemGroup>

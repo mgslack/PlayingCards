@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-/*
+﻿/*
  * Primary class defines a standard Playing Card.  Card is defined by a suit
  * and value from the given enums.  Each card is defined with a 'deck value'
  * that is a number from 1 to 52 based on the suit and value of the card
@@ -16,6 +11,7 @@ using System.Text;
  * ----------------------------------------------------------------------------
  * 
  * Updated: 2014-03-09 - Updated source to add regions.
+ *          2022-01-25 - Removed unnecessary usings.
  *
  */
 namespace PlayingCards

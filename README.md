@@ -1,11 +1,12 @@
 # PlayingCards
-Assembly library class for standard playing cards (cards, hands, decks and images)
+Assembly library classes for a standard set of playing cards (cards, hands, decks and images)
 
 Library containing implmentation of Playing Cards, including classes for the cards, images, hands,
-and deck.  Images mainly based on images created for the QCard.dll created by
-Stephen Murphy many years ago.  Converted to Java in 2001, that was converted from a project for OS/2
-called QCard2.dll, specifically written for SpeedSoft Sybil (returns Sybil TBitMaps).  Library
-re-written and made better in C# in 12/2013 for use in VS .net card games (more object oriented
-with proper enums and properties, along with using LINQ for first time).
+and deck.  Images mainly based on images created for the QCard.dll created by Stephen Murphy many
+years ago.  QCard was converted to use within OS/2 and called QCard2.dll, specifically written for
+SpeedSoft Sybil (returned Sybil TBitMaps).  Library rewritten in Java and made generic (can be used
+to implement card sets other than playing cards).  The libraray was then re-written and made simpler
+using C# in 12/2013 for use in VS .net card games (more object oriented with proper enums and properties,
+along with using LINQ for first time).
 
 Library last editted/compiled using VS 2019.
